@@ -36,7 +36,7 @@ def setup_chat_chain():
         return SQLChatMessageHistory(
             table_name=user_id,
             session_id=conversation_id,
-            connection="sqlite:///sqlite.db"
+            connection="sqlite:///sqlite.db" 
         )
         
     config_field = [
